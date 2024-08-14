@@ -9,7 +9,7 @@ public class TrianglePattern {
             }
 
             for (k = 1; k <= l; k++) { 
-                System.out.print("* ");
+                System.out.print("T ");
             }
 
             System.out.println(); 
