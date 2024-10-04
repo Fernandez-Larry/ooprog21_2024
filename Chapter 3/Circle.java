@@ -1,11 +1,11 @@
-public class CombinedCircle {
+public class Circle {
     
     private static double radius;
     private static double diameter;
     private static double area;
 
     
-    public CombinedCircle() {
+    public Circle() {
         radius = 1;
         diameter = 2 * radius;
         area = Math.PI * Math.pow(radius, 2);
@@ -33,9 +33,9 @@ public class CombinedCircle {
 
     public static void main(String[] args) {
         
-        CombinedCircle a = new CombinedCircle();
-        CombinedCircle b = new CombinedCircle();
-        CombinedCircle c = new CombinedCircle();
+        Circle a = new Circle();
+        Circle b = new Circle();
+        Circle c = new Circle();
 
         
         a.setRadius(3);
