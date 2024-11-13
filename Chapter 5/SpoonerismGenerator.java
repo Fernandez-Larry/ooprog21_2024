@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Spoonerizer {
+public class SpoonerismGenerator{
     
     
     public static String getWord(Scanner scanner, String prompt) {
